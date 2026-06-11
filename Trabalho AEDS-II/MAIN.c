@@ -109,7 +109,7 @@ void exibir_endereco_memoria(TipoLista *Lista)
     {
         for (int i = Lista->inicio; i < Lista->fim; i++)
         {
-            printf("%p ", &Lista->item[i]);
+            printf("%p\n", &Lista->item[i]);
         }
     }
 }
